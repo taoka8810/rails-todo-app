@@ -1,0 +1,55 @@
+.c-task-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 23px 18px 23px 12px;
+  border-radius: 9px;
+  box-shadow: 5px 5px 10px #c5c9cb, -5px -5px 10px #ffffff;
+}
+
+.c-task-card__checkbox {
+  display: flex;
+  align-items: center;
+}
+
+.c-task-card__checkbox-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  box-shadow: 2px 2px 4px transparent, -2px -2px 4px transparent,
+    inset 2px 2px 4px #c5c9cb, inset -2px -2px 4px #ffffff;
+  transition: box-shadow 0.2s;
+  cursor: pointer;
+  &:hover {
+    background-color: #c7f9cc;
+    box-shadow: 2px 2px 4px transparent, -2px -2px 4px transparent,
+      inset 4px 4px 6px #57cc99, inset -4px -4px 6px #57cc99;
+    transition: 0.4s;
+  }
+}
+
+.c-task-card__checkbox-button-icon {
+  width: 15px;
+  height: 15px;
+  display: none;
+}
+
+.c-task-card__checkbox-text {
+  margin-left: 17px;
+  font-family: "Noto Sans JP", sans-serif;
+  font-size: 0.9rem;
+  color: #565868;
+}
+
+.c-task-card__delete-button-icon {
+  color: #565868;
+  transition: 0.2s;
+  cursor: pointer;
+  &:hover {
+    color: #ef233c;
+    transition: 0.3s;
+  }
+}

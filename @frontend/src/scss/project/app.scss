@@ -1,0 +1,22 @@
+main {
+  position: absolute;
+  top: calc(50% - 350px);
+  left: calc(50% - 160px);
+  text-align: center;
+}
+
+.l-task-list {
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+  padding: 30px;
+  width: 320px;
+  height: 550px;
+  background-color: #edf2f4;
+  border-radius: 15px;
+  box-shadow: 20px 20px 60px #c9cecf, -20px -20px 60px #ffffff;
+}
+
+.l-create-task {
+  margin-top: 40px;
+}
